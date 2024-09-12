@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="left-side">
+            <img src="/image/login.jpg" alt="Login Image">
+        </div>
+        <div class="right-side">
+            <div class="form-title">Login</div>
+            <form id="loginForm">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Username">
+                    <label for="username"></label>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <label for="password"></label>
+                </div>
+                <button class="btn" id="signInButton">Sign In</button>
+                <div class="or">or</div>
+                
+                <div class="links">
+                    <p>Don't have an account? <a href="signup.html" id="signupLink">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
